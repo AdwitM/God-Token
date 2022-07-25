@@ -47,7 +47,7 @@ function App() {
         let tokenSupply = await tokenContract.totalSupply();
         tokenSupply = utils.formatEther(tokenSupply)
 
-        setTokenName(`${tokenName} 🦊`);
+        setTokenName(`🧔 ${tokenName} 🧔`);
         setTokenSymbol(tokenSymbol);
         setTokenTotalSupply(tokenSupply);
         setTokenOwnerAddress(tokenOwner);
@@ -153,7 +153,7 @@ function App() {
     <main className="main-container">
       <h2 className="headline">
         <span className="headline-gradient">GOD TOKEN</span>
-        <img className="inline p-3 ml-2" src="https://i.imgur.com/5JfHKHU.png" alt="Meme Coin" width="60" height="30" />
+        <img className="inline p-3 ml-2" src="https://i.imgur.com/WKHHO8R.png" alt="GOD TOKEN" width="60" height="30" />
       </h2>
       <section className="customer-section px-10 pt-5 pb-10">
         {error && <p className="text-2xl text-red-700">{error}</p>}
@@ -194,7 +194,7 @@ function App() {
                   className="input-style"
                   onChange={handleInputChange}
                   name="burnAmount"
-                  placeholder={`0.0000 ${tokenSymbol}`}
+                  placeholder={`7.7777 ${tokenSymbol}`}
                   value={inputValue.burnAmount}
                 />
                 <button
@@ -211,7 +211,7 @@ function App() {
                   className="input-style"
                   onChange={handleInputChange}
                   name="mintAmount"
-                  placeholder={`0.0000 ${tokenSymbol}`}
+                  placeholder={`7.7777 ${tokenSymbol}`}
                   value={inputValue.mintAmount}
                 />
                 <button
