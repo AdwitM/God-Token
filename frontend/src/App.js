@@ -151,6 +151,7 @@ function App() {
 
   return (
     <main className="main-container">
+      <style>background-color: #0d1117</style>
       <h2 className="headline">
         <center>
           <span className="inline p-3 ml-2">🧔</span>
