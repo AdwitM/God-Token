@@ -153,8 +153,9 @@ function App() {
     <main className="main-container">
       <h2 className="headline">
         <center>
-        <span className="headline-gradient">GOD TOKEN</span>
-        <span className="inline p-3 ml-2">🧔</span>
+          <span className="inline p-3 ml-2">🧔</span>
+          <span className="headline-gradient">GOD TOKEN</span>
+          <span className="inline p-3 ml-2">🧔</span>
         </center>
       </h2>
       <section className="customer-section px-10 pt-5 pb-10">
