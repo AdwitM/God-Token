@@ -234,10 +234,12 @@ function App() {
           <p><span className="font-bold">Token Owner Address: </span>{tokenOwnerAddress}</p>
         </div>
         <div className="mt-5">
-          {isWalletConnected && <p><span className="font-bold">Your Wallet Address: </span>{yourWalletAddress}</p>}
-          <button className="btn-connect" onClick={checkIfWalletIsConnected}>
-            {isWalletConnected ? "Wallet Connected 🔒" : "Connect Wallet 🔑"}
-          </button>
+          <center>
+            {isWalletConnected && <p><span className="font-bold">Your Wallet Address: </span>{yourWalletAddress}</p>}
+            <button className="btn-connect" onClick={checkIfWalletIsConnected}>
+              {isWalletConnected ? "Wallet Connected" : "Connect Wallet"}
+            </button>
+          </center>
         </div>
 
       </section>
