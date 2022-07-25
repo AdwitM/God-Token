@@ -47,7 +47,7 @@ function App() {
         let tokenSupply = await tokenContract.totalSupply();
         tokenSupply = utils.formatEther(tokenSupply)
 
-        setTokenName(`${tokenName} 🧔`);
+        setTokenName(`${tokenName}`);
         setTokenSymbol(tokenSymbol);
         setTokenTotalSupply(tokenSupply);
         setTokenOwnerAddress(tokenOwner);
